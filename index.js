@@ -4,6 +4,7 @@ import inquirer from 'inquirer';
 import sillyName from 'sillyname';
 import qr from 'qr-image';
 import fs from 'fs';
+
 inquirer
   .prompt([{
     message: 'What is your name?',
