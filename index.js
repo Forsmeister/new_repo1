@@ -24,7 +24,7 @@ inquirer
 
     qr_png.pipe(fs.createWriteStream("name.png"));
     qr_png1.pipe(fs.createWriteStream("superheroname.png"));
-    qr_png2.pipe(fs.createWriteStream("sillyname.png"));
+    qr_png2.pipe(fs.createWriteStream("villainname.png"));
 
     fs.writeFile('myhero.txt', content, (err) => {
       if (err) {
