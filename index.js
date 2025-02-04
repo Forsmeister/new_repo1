@@ -19,8 +19,8 @@ inquirer
     const content = `${answers.ughugh} ${ss} ${sh}`;
 
     console.log("His her they them name is", answers.ughugh);
-    console.log("Your villan name is", sh) ;
-    console.log("Your silly name is", ss);
+    console.log("Your villain name is", ss) ;
+    console.log("Your hero name is", sh);
 
     qr_png.pipe(fs.createWriteStream("name.png"));
     qr_png1.pipe(fs.createWriteStream("superheroname.png"));
